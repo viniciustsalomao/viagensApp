@@ -13,6 +13,16 @@
 		DD8C1C38268CAF93006CDD9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8C1C36268CAF93006CDD9C /* Main.storyboard */; };
 		DD8C1C3A268CAF94006CDD9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD8C1C39268CAF94006CDD9C /* Assets.xcassets */; };
 		DD8C1C3D268CAF94006CDD9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8C1C3B268CAF94006CDD9C /* LaunchScreen.storyboard */; };
+		DD8C1C46268CB6A2006CDD9C /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8C1C45268CB6A2006CDD9C /* Viagem.swift */; };
+		DD8C1C4D268CB8B5006CDD9C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8C1C4C268CB8B5006CDD9C /* TableViewCell.swift */; };
+		DD8C1C56268CBC6A006CDD9C /* img5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD8C1C51268CBC6A006CDD9C /* img5.jpg */; };
+		DD8C1C57268CBC6A006CDD9C /* img4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD8C1C52268CBC6A006CDD9C /* img4.jpg */; };
+		DD8C1C58268CBC6A006CDD9C /* img3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD8C1C53268CBC6A006CDD9C /* img3.jpg */; };
+		DD8C1C59268CBC6A006CDD9C /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD8C1C54268CBC6A006CDD9C /* img2.jpg */; };
+		DD8C1C5A268CBC6A006CDD9C /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8C1C55268CBC6A006CDD9C /* img1.png */; };
+		DD8C1C66268CBDEC006CDD9C /* ViagemDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8C1C65268CBDEC006CDD9C /* ViagemDAO.swift */; };
+		DD8C1C6C26934E6A006CDD9C /* PacotesViagensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8C1C6B26934E6A006CDD9C /* PacotesViagensViewController.swift */; };
+		DD8C1C7026934F79006CDD9C /* PacoteViagemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8C1C6F26934F79006CDD9C /* PacoteViagemCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		DD8C1C39268CAF94006CDD9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD8C1C3C268CAF94006CDD9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD8C1C3E268CAF94006CDD9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD8C1C45268CB6A2006CDD9C /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
+		DD8C1C4C268CB8B5006CDD9C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		DD8C1C51268CBC6A006CDD9C /* img5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img5.jpg; sourceTree = "<group>"; };
+		DD8C1C52268CBC6A006CDD9C /* img4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img4.jpg; sourceTree = "<group>"; };
+		DD8C1C53268CBC6A006CDD9C /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpg; sourceTree = "<group>"; };
+		DD8C1C54268CBC6A006CDD9C /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+		DD8C1C55268CBC6A006CDD9C /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
+		DD8C1C65268CBDEC006CDD9C /* ViagemDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViagemDAO.swift; path = "../../../../../../Desktop/Arquivos Projeto/ViagemDAO.swift"; sourceTree = "<group>"; };
+		DD8C1C6B26934E6A006CDD9C /* PacotesViagensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacotesViagensViewController.swift; sourceTree = "<group>"; };
+		DD8C1C6F26934F79006CDD9C /* PacoteViagemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacoteViagemCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +78,96 @@
 			children = (
 				DD8C1C30268CAF93006CDD9C /* AppDelegate.swift */,
 				DD8C1C32268CAF93006CDD9C /* SceneDelegate.swift */,
-				DD8C1C34268CAF93006CDD9C /* ViewController.swift */,
+				DD8C1C5C268CBD4C006CDD9C /* Model */,
+				DD8C1C5D268CBD5A006CDD9C /* Home */,
+				DD8C1C6826934E2A006CDD9C /* Pacotes */,
+				DD8C1C62268CBD94006CDD9C /* ViagemDAO */,
 				DD8C1C36268CAF93006CDD9C /* Main.storyboard */,
+				DD8C1C50268CBC6A006CDD9C /* Assets */,
 				DD8C1C39268CAF94006CDD9C /* Assets.xcassets */,
 				DD8C1C3B268CAF94006CDD9C /* LaunchScreen.storyboard */,
 				DD8C1C3E268CAF94006CDD9C /* Info.plist */,
 			);
 			path = Viagens;
+			sourceTree = "<group>";
+		};
+		DD8C1C50268CBC6A006CDD9C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DD8C1C51268CBC6A006CDD9C /* img5.jpg */,
+				DD8C1C52268CBC6A006CDD9C /* img4.jpg */,
+				DD8C1C53268CBC6A006CDD9C /* img3.jpg */,
+				DD8C1C54268CBC6A006CDD9C /* img2.jpg */,
+				DD8C1C55268CBC6A006CDD9C /* img1.png */,
+			);
+			name = Assets;
+			path = "../../../../../Desktop/Arquivos Projeto/Assets";
+			sourceTree = "<group>";
+		};
+		DD8C1C5C268CBD4C006CDD9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD8C1C45268CB6A2006CDD9C /* Viagem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD8C1C5D268CBD5A006CDD9C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DD8C1C5E268CBD82006CDD9C /* Controller */,
+				DD8C1C60268CBD8C006CDD9C /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DD8C1C5E268CBD82006CDD9C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD8C1C34268CAF93006CDD9C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DD8C1C60268CBD8C006CDD9C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD8C1C4C268CB8B5006CDD9C /* TableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD8C1C62268CBD94006CDD9C /* ViagemDAO */ = {
+			isa = PBXGroup;
+			children = (
+				DD8C1C65268CBDEC006CDD9C /* ViagemDAO.swift */,
+			);
+			path = ViagemDAO;
+			sourceTree = "<group>";
+		};
+		DD8C1C6826934E2A006CDD9C /* Pacotes */ = {
+			isa = PBXGroup;
+			children = (
+				DD8C1C6926934E35006CDD9C /* Controller */,
+				DD8C1C6A26934E3B006CDD9C /* View */,
+			);
+			path = Pacotes;
+			sourceTree = "<group>";
+		};
+		DD8C1C6926934E35006CDD9C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD8C1C6B26934E6A006CDD9C /* PacotesViagensViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DD8C1C6A26934E3B006CDD9C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD8C1C6F26934F79006CDD9C /* PacoteViagemCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +228,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD8C1C3D268CAF94006CDD9C /* LaunchScreen.storyboard in Resources */,
+				DD8C1C5A268CBC6A006CDD9C /* img1.png in Resources */,
+				DD8C1C58268CBC6A006CDD9C /* img3.jpg in Resources */,
+				DD8C1C57268CBC6A006CDD9C /* img4.jpg in Resources */,
+				DD8C1C56268CBC6A006CDD9C /* img5.jpg in Resources */,
 				DD8C1C3A268CAF94006CDD9C /* Assets.xcassets in Resources */,
 				DD8C1C38268CAF93006CDD9C /* Main.storyboard in Resources */,
+				DD8C1C59268CBC6A006CDD9C /* img2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +245,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8C1C6C26934E6A006CDD9C /* PacotesViagensViewController.swift in Sources */,
+				DD8C1C46268CB6A2006CDD9C /* Viagem.swift in Sources */,
 				DD8C1C35268CAF93006CDD9C /* ViewController.swift in Sources */,
+				DD8C1C7026934F79006CDD9C /* PacoteViagemCollectionViewCell.swift in Sources */,
+				DD8C1C4D268CB8B5006CDD9C /* TableViewCell.swift in Sources */,
+				DD8C1C66268CBDEC006CDD9C /* ViagemDAO.swift in Sources */,
 				DD8C1C31268CAF93006CDD9C /* AppDelegate.swift in Sources */,
 				DD8C1C33268CAF93006CDD9C /* SceneDelegate.swift in Sources */,
 			);
