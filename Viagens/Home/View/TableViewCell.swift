@@ -23,5 +23,15 @@ class TableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    func configuraCelular(viagem: Viagem) {
+        labelTitulo.text = viagem.titulo
+        labelQuantidadeDias.text = viagem.quantidadeDeDias == 1 ? "1 dia" : "\(viagem.quantidadeDeDias) dias"
+        labelPreco.text = "R$ \(viagem.preco)"
+        imageViewViagem.image = UIImage(named: viagem.caminhoDaImagem)
+        
+        imageViewViagem.layer.cornerRadius = 10
+        imageViewViagem.layer.masksToBounds = true
+    }
 
 }

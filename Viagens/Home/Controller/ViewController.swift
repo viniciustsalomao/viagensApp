@@ -36,13 +36,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         
         let viagemAtual = listaViagens[indexPath.row]
         
-        cell.labelTitulo.text = viagemAtual.titulo
-        cell.labelQuantidadeDias.text = "\(viagemAtual.quantidadeDeDias) dias"
-        cell.labelPreco.text = "R$ \(viagemAtual.preco)"
-        cell.imageViewViagem.image = UIImage(named: viagemAtual.caminhoDaImagem)
-        
-        cell.imageViewViagem.layer.cornerRadius = 10
-        cell.imageViewViagem.layer.masksToBounds = true
+        cell.configuraCelular(viagem: viagemAtual)
         
         return cell
     }
